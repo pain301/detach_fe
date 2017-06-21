@@ -55,3 +55,13 @@ npm install webpack-dev-server@1.16.5 --save-dev -g
 ```sh
 webpack-dev-server --inline --port 8088
 ```
+
+## 模板渲染
+```sh
+npm install hogan --save
+```
+
+## 图标
+```sh
+npm install font-awesome --save
+```
