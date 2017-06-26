@@ -42,7 +42,7 @@ var _mall = {
     return result;
   },
   login: function() {
-    window.location.href = './login.html?redirect=' + encodeURIComponent(window.location.href);
+    window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
   },
   goHome: function() {
     window.location.href = './index.html';
@@ -53,7 +53,7 @@ var _mall = {
   errorTips: function(msg) {
     alert(msg || '操作失败');
   },
-  validate: function(type, value) {
+  validate: function(value, type) {
     var value = $.trim(value);
     if ('require' === type) {
       return !!value;
