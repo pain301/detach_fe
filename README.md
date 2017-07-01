@@ -65,3 +65,9 @@ npm install hogan --save
 ```sh
 npm install font-awesome --save
 ```
+
+## release
+```sh
+git tag <tag-name>
+git push origin <tag-name>
+```

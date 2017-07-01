@@ -6,6 +6,7 @@ var _mall = require('util/mall.js');
 
 var header = {
   init: function() {
+    this.onLoad();
     this.bindEvent();
   },
   /* 回显 */

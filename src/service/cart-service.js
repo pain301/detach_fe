@@ -9,6 +9,14 @@ var _cart = {
       success: resolve,
       error: reject
     });
+  },
+  addToCart: function(productInfo, resolve, reject) {
+    _mall.request({
+      url: _mall.getServerUrl('/cart/add'),
+      data: productInfo,
+      success: resolve,
+      error: reject
+    });
   }
 };
 
